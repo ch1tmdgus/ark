@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ARK</string>
+
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="next">다음</string>
+    <string name="back">이전</string>
+    <string name="start">시작</string>
+    <string name="hide">숨기기</string>
+    <string name="delete">삭제</string>
+    <string name="retry">다시 시도</string>
+    <string name="grant">허용</string>
+    <string name="settings">설정</string>
+    <string name="restore">복원</string>
+
+    <string name="ob_welcome_title">ARK에 오신 것을 환영합니다</string>
+    <string name="ob_welcome_body">앱과 앱 데이터를 백업하고, 언제든지 되살리세요.</string>
+    <string name="ob_f1">APK와 앱 데이터를 하나로 보관</string>
+    <string name="ob_f2">기기, 원하는 폴더, WebDAV 클라우드에 저장</string>
+    <string name="ob_f3">알림과 함께 백그라운드에서도 계속 진행</string>
+    <string name="ob_perm_title">준비해볼까요</string>
+    <string name="ob_perm_body">ARK가 제대로 동작하려면 몇 가지가 필요해요.</string>
+    <string name="perm_root">루트 권한</string>
+    <string name="perm_root_desc">다른 앱의 데이터를 읽는 데 필요합니다.</string>
+    <string name="perm_notif">알림</string>
+    <string name="perm_notif_desc">백그라운드 백업 진행 상황을 보여줍니다.</string>
+    <string name="perm_battery">배터리 제한 없음</string>
+    <string name="perm_battery_desc">긴 백업이 시스템에 의해 중단되지 않도록 합니다.</string>
+    <string name="perm_recommended">권장</string>
+    <string name="perm_granted">허용됨</string>
+    <string name="perm_checking">확인 중…</string>
+    <string name="perm_root_fail">루트를 확인하지 못했습니다. ARK에 슈퍼유저 권한을 허용한 뒤 다시 시도를 눌러주세요.</string>
+    <string name="ob_ready_title">시작해볼까요?</string>
+    <string name="ob_ready_body">모든 준비가 끝났어요. 첫 번째 앱을 백업해봐요.</string>
+
+    <string name="home_subtitle">앱 %1$d개</string>
+    <string name="chip_all">전체</string>
+    <string name="chip_user">사용자 앱</string>
+    <string name="chip_system">시스템 앱</string>
+    <string name="search_hint">앱 검색</string>
+    <string name="fab_restore">복원</string>
+    <string name="no_root_title">루트 권한을 사용할 수 없습니다</string>
+    <string name="no_root_body">루트 관리 앱에서 ARK에 슈퍼유저 권한을 허용한 뒤 앱을 다시 실행해주세요.</string>
+    <string name="no_apps">앱이 없습니다</string>
+
+    <string name="bs_what">무엇을 백업할까요?</string>
+    <string name="bs_where">어디에 저장할까요?</string>
+    <string name="mode_apk">APK만</string>
+    <string name="mode_apk_desc">데이터 없이 앱 패키지만</string>
+    <string name="mode_data">데이터만</string>
+    <string name="mode_data_desc">앱의 내부·외부 데이터</string>
+    <string name="mode_both">APK + 데이터</string>
+    <string name="mode_both_desc">전부 백업 (권장)</string>
+    <string name="dest_local">이 기기</string>
+    <string name="dest_local_desc">기본 폴더: /sdcard/ARK</string>
+    <string name="dest_custom">폴더 선택…</string>
+    <string name="dest_custom_desc">원하는 폴더에 저장</string>
+    <string name="dest_cloud">클라우드 (WebDAV)</string>
+    <string name="dest_cloud_desc">%1$s 에 업로드</string>
+
+    <string name="progress_backup_title">%1$s 백업 중</string>
+    <string name="progress_restore_title">%1$s 복원 중</string>
+    <string name="progress_hint">앱을 닫아도 괜찮아요. 진행 상황은 알림으로 확인할 수 있어요.</string>
+    <string name="copying_file">백업 파일을 읽는 중…</string>
+
+    <string name="log_prepare">준비 중…</string>
+    <string name="log_apk">APK 복사 중…</string>
+    <string name="log_data">앱 데이터 압축 중…</string>
+    <string name="log_ext">외부 데이터 압축 중…</string>
+    <string name="log_pack">백업 파일 만드는 중…</string>
+    <string name="log_save_custom">선택한 폴더에 저장 중…</string>
+    <string name="log_upload">업로드 중… %1$s / %2$s</string>
+    <string name="log_download">다운로드 중… %1$s / %2$s</string>
+    <string name="log_extract">압축 해제 중…</string>
+    <string name="log_install">APK 설치 중…</string>
+    <string name="log_restore_data">앱 데이터 복원 중…</string>
+    <string name="log_restore_ext">외부 데이터 복원 중…</string>
+    <string name="log_cleanup">정리 중…</string>
+
+    <string name="res_backup_ok">백업 완료</string>
+    <string name="res_backup_fail">백업 실패</string>
+    <string name="res_restore_ok">복원 완료</string>
+    <string name="res_restore_fail">복원 실패</string>
+    <string name="res_saved_to">저장 위치: %1$s</string>
+    <string name="res_saved_cloud">업로드 위치: %1$s</string>
+    <string name="res_no_apk">이 앱의 APK를 찾지 못했습니다.</string>
+    <string name="res_not_installed">앱이 설치되어 있지 않습니다. APK가 포함된 백업을 먼저 복원해주세요.</string>
+    <string name="res_bad_archive">올바른 ARK 백업 파일이 아닙니다.</string>
+    <string name="res_empty_data">백업된 앱 데이터가 없습니다.</string>
+    <string name="res_install_fail">APK를 설치하지 못했습니다.</string>
+    <string name="res_count_mismatch">복원된 항목 수가 백업과 일치하지 않습니다.</string>
+    <string name="res_restored_pkg">복원됨: %1$s</string>
+
+    <string name="rs_title">어디에서 복원할까요?</string>
+    <string name="rs_local">이 기기</string>
+    <string name="rs_local_desc">/sdcard/ARK 의 백업</string>
+    <string name="rs_cloud">클라우드 (WebDAV)</string>
+    <string name="rs_cloud_desc">서버에 저장된 백업</string>
+    <string name="rs_other">다른 위치…</string>
+    <string name="rs_other_desc">백업 파일을 직접 찾아서 선택</string>
+    <string name="rs_list_local">이 기기의 백업</string>
+    <string name="rs_list_cloud">클라우드의 백업</string>
+    <string name="rs_empty">백업을 찾지 못했습니다</string>
+    <string name="rs_loading">백업을 찾는 중…</string>
+    <string name="rs_confirm_title">이 백업으로 복원할까요?</string>
+    <string name="rs_confirm_warn">현재 앱과 앱 데이터가 덮어써집니다.</string>
+    <string name="rs_delete_title">이 백업을 삭제할까요?</string>
+    <string name="rs_cloud_need_connect">먼저 설정에서 클라우드를 연결해주세요.</string>
+    <string name="rs_load_fail">백업을 불러오지 못했습니다: %1$s</string>
+    <string name="entry_line1">v%1$s · %2$s</string>
+    <string name="entry_line2">%1$s · Android %2$s · %3$s</string>
+
+    <string name="meta_device">기기</string>
+    <string name="meta_android">안드로이드</string>
+    <string name="meta_app_version">앱 버전</string>
+    <string name="meta_date">백업 일시</string>
+    <string name="meta_contains">포함 내용</string>
+    <string name="meta_size">크기</string>
+
+    <string name="set_title">설정</string>
+    <string name="set_cloud">클라우드 (WebDAV)</string>
+    <string name="set_url">서버 주소</string>
+    <string name="set_user">사용자명</string>
+    <string name="set_pass">비밀번호 또는 앱 비밀번호</string>
+    <string name="set_connect">연결</string>
+    <string name="set_disconnect">연결 해제</string>
+    <string name="set_connected">연결됨: %1$s</string>
+    <string name="set_conn_ok">연결에 성공했습니다</string>
+    <string name="set_conn_fail">연결 실패: %1$s</string>
+    <string name="set_cloud_note">백업은 서버의 ARK 폴더에 저장됩니다.</string>
+    <string name="set_dynamic">배경화면 색상</string>
+    <string name="set_dynamic_desc">Android 12 이상에서 Material You 색상 사용</string>
+    <string name="set_lang_note">언어는 시스템 설정을 따릅니다.</string>
+
+    <string name="notif_ch_progress">백업 및 복원 진행 상황</string>
+    <string name="notif_ch_result">백업 및 복원 결과</string>
+</resources>

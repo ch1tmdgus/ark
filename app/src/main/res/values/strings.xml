@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ARK</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="start">Start</string>
+    <string name="hide">Hide</string>
+    <string name="delete">Delete</string>
+    <string name="retry">Retry</string>
+    <string name="grant">Grant</string>
+    <string name="settings">Settings</string>
+    <string name="restore">Restore</string>
+
+    <string name="ob_welcome_title">Welcome to ARK</string>
+    <string name="ob_welcome_body">Back up your apps and their data, and bring them back anytime.</string>
+    <string name="ob_f1">APK and app data archived together</string>
+    <string name="ob_f2">Save on this device, in any folder, or to your WebDAV cloud</string>
+    <string name="ob_f3">Keeps running in the background with notifications</string>
+    <string name="ob_perm_title">Let\'s get set up</string>
+    <string name="ob_perm_body">ARK needs a few things to work properly.</string>
+    <string name="perm_root">Root access</string>
+    <string name="perm_root_desc">Required to read the data of other apps.</string>
+    <string name="perm_notif">Notifications</string>
+    <string name="perm_notif_desc">Shows progress while backing up in the background.</string>
+    <string name="perm_battery">Unrestricted battery</string>
+    <string name="perm_battery_desc">Keeps long backups from being stopped by the system.</string>
+    <string name="perm_recommended">Recommended</string>
+    <string name="perm_granted">Granted</string>
+    <string name="perm_checking">Checking…</string>
+    <string name="perm_root_fail">Root was not detected. Allow superuser access for ARK, then tap Retry.</string>
+    <string name="ob_ready_title">Ready to start?</string>
+    <string name="ob_ready_body">Everything is set. Let\'s back up your first app.</string>
+
+    <string name="home_subtitle">%1$d apps</string>
+    <string name="chip_all">All</string>
+    <string name="chip_user">User apps</string>
+    <string name="chip_system">System apps</string>
+    <string name="search_hint">Search apps</string>
+    <string name="fab_restore">Restore</string>
+    <string name="no_root_title">Root access unavailable</string>
+    <string name="no_root_body">Allow superuser access for ARK in your root manager, then reopen the app.</string>
+    <string name="no_apps">No apps found</string>
+
+    <string name="bs_what">What do you want to back up?</string>
+    <string name="bs_where">Where should it be saved?</string>
+    <string name="mode_apk">APK only</string>
+    <string name="mode_apk_desc">The app package, without its data</string>
+    <string name="mode_data">Data only</string>
+    <string name="mode_data_desc">Internal and external app data</string>
+    <string name="mode_both">APK + Data</string>
+    <string name="mode_both_desc">Everything, recommended</string>
+    <string name="dest_local">This device</string>
+    <string name="dest_local_desc">Default folder: /sdcard/ARK</string>
+    <string name="dest_custom">Choose a folder…</string>
+    <string name="dest_custom_desc">Save to any folder you pick</string>
+    <string name="dest_cloud">Cloud (WebDAV)</string>
+    <string name="dest_cloud_desc">Upload to %1$s</string>
+
+    <string name="progress_backup_title">Backing up %1$s</string>
+    <string name="progress_restore_title">Restoring %1$s</string>
+    <string name="progress_hint">You can leave the app. Progress continues in the notification.</string>
+    <string name="copying_file">Reading backup file…</string>
+
+    <string name="log_prepare">Preparing…</string>
+    <string name="log_apk">Copying APK…</string>
+    <string name="log_data">Archiving app data…</string>
+    <string name="log_ext">Archiving external data…</string>
+    <string name="log_pack">Creating archive…</string>
+    <string name="log_save_custom">Saving to the chosen folder…</string>
+    <string name="log_upload">Uploading… %1$s / %2$s</string>
+    <string name="log_download">Downloading… %1$s / %2$s</string>
+    <string name="log_extract">Extracting archive…</string>
+    <string name="log_install">Installing APK…</string>
+    <string name="log_restore_data">Restoring app data…</string>
+    <string name="log_restore_ext">Restoring external data…</string>
+    <string name="log_cleanup">Cleaning up…</string>
+
+    <string name="res_backup_ok">Backup complete</string>
+    <string name="res_backup_fail">Backup failed</string>
+    <string name="res_restore_ok">Restore complete</string>
+    <string name="res_restore_fail">Restore failed</string>
+    <string name="res_saved_to">Saved to %1$s</string>
+    <string name="res_saved_cloud">Uploaded to %1$s</string>
+    <string name="res_no_apk">Could not find the APK of this app.</string>
+    <string name="res_not_installed">This app is not installed. Restore a backup that includes the APK first.</string>
+    <string name="res_bad_archive">This is not a valid ARK backup.</string>
+    <string name="res_empty_data">No app data was archived.</string>
+    <string name="res_install_fail">The APK could not be installed.</string>
+    <string name="res_count_mismatch">The restored item count does not match the backup.</string>
+    <string name="res_restored_pkg">Restored: %1$s</string>
+
+    <string name="rs_title">Restore from</string>
+    <string name="rs_local">This device</string>
+    <string name="rs_local_desc">Backups in /sdcard/ARK</string>
+    <string name="rs_cloud">Cloud (WebDAV)</string>
+    <string name="rs_cloud_desc">Backups on your server</string>
+    <string name="rs_other">Other location…</string>
+    <string name="rs_other_desc">Pick a backup file manually</string>
+    <string name="rs_list_local">Backups on this device</string>
+    <string name="rs_list_cloud">Backups in the cloud</string>
+    <string name="rs_empty">No backups found</string>
+    <string name="rs_loading">Looking for backups…</string>
+    <string name="rs_confirm_title">Restore this backup?</string>
+    <string name="rs_confirm_warn">The current app and its data will be overwritten.</string>
+    <string name="rs_delete_title">Delete this backup?</string>
+    <string name="rs_cloud_need_connect">Connect a cloud in Settings first.</string>
+    <string name="rs_load_fail">Could not load backups: %1$s</string>
+    <string name="entry_line1">v%1$s · %2$s</string>
+    <string name="entry_line2">%1$s · Android %2$s · %3$s</string>
+
+    <string name="meta_device">Device</string>
+    <string name="meta_android">Android</string>
+    <string name="meta_app_version">App version</string>
+    <string name="meta_date">Backup date</string>
+    <string name="meta_contains">Contains</string>
+    <string name="meta_size">Size</string>
+
+    <string name="set_title">Settings</string>
+    <string name="set_cloud">Cloud (WebDAV)</string>
+    <string name="set_url">Server URL</string>
+    <string name="set_user">Username</string>
+    <string name="set_pass">Password or app password</string>
+    <string name="set_connect">Connect</string>
+    <string name="set_disconnect">Disconnect</string>
+    <string name="set_connected">Connected: %1$s</string>
+    <string name="set_conn_ok">Connected successfully</string>
+    <string name="set_conn_fail">Connection failed: %1$s</string>
+    <string name="set_cloud_note">Backups are stored in the ARK folder on your server.</string>
+    <string name="set_dynamic">Wallpaper colors</string>
+    <string name="set_dynamic_desc">Use Material You colors on Android 12 and later</string>
+    <string name="set_lang_note">The language follows your system settings.</string>
+
+    <string name="notif_ch_progress">Backup and restore progress</string>
+    <string name="notif_ch_result">Backup and restore results</string>
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ARK</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="next">次へ</string>
+    <string name="back">戻る</string>
+    <string name="start">開始</string>
+    <string name="hide">隠す</string>
+    <string name="delete">削除</string>
+    <string name="retry">再試行</string>
+    <string name="grant">許可</string>
+    <string name="settings">設定</string>
+    <string name="restore">復元</string>
+
+    <string name="ob_welcome_title">ARKへようこそ</string>
+    <string name="ob_welcome_body">アプリとそのデータをバックアップして、いつでも元に戻せます。</string>
+    <string name="ob_f1">APKとアプリデータをまとめて保存</string>
+    <string name="ob_f2">本体、好きなフォルダ、WebDAVクラウドに保存</string>
+    <string name="ob_f3">通知でお知らせしながらバックグラウンドでも実行</string>
+    <string name="ob_perm_title">準備をしましょう</string>
+    <string name="ob_perm_body">ARKが正しく動作するために、いくつか必要なものがあります。</string>
+    <string name="perm_root">ルート権限</string>
+    <string name="perm_root_desc">他のアプリのデータを読み取るために必要です。</string>
+    <string name="perm_notif">通知</string>
+    <string name="perm_notif_desc">バックグラウンドでの進行状況を表示します。</string>
+    <string name="perm_battery">バッテリー制限なし</string>
+    <string name="perm_battery_desc">長時間のバックアップがシステムに止められないようにします。</string>
+    <string name="perm_recommended">推奨</string>
+    <string name="perm_granted">許可済み</string>
+    <string name="perm_checking">確認中…</string>
+    <string name="perm_root_fail">ルートを検出できませんでした。ARKにスーパーユーザー権限を許可して、再試行をタップしてください。</string>
+    <string name="ob_ready_title">始めましょうか？</string>
+    <string name="ob_ready_body">準備が整いました。最初のアプリをバックアップしましょう。</string>
+
+    <string name="home_subtitle">%1$d個のアプリ</string>
+    <string name="chip_all">すべて</string>
+    <string name="chip_user">ユーザーアプリ</string>
+    <string name="chip_system">システムアプリ</string>
+    <string name="search_hint">アプリを検索</string>
+    <string name="fab_restore">復元</string>
+    <string name="no_root_title">ルート権限を利用できません</string>
+    <string name="no_root_body">ルート管理アプリでARKにスーパーユーザー権限を許可し、アプリを再起動してください。</string>
+    <string name="no_apps">アプリが見つかりません</string>
+
+    <string name="bs_what">何をバックアップしますか？</string>
+    <string name="bs_where">どこに保存しますか？</string>
+    <string name="mode_apk">APKのみ</string>
+    <string name="mode_apk_desc">データなしのアプリパッケージ</string>
+    <string name="mode_data">データのみ</string>
+    <string name="mode_data_desc">アプリの内部・外部データ</string>
+    <string name="mode_both">APK + データ</string>
+    <string name="mode_both_desc">すべて保存（推奨）</string>
+    <string name="dest_local">この端末</string>
+    <string name="dest_local_desc">既定のフォルダ: /sdcard/ARK</string>
+    <string name="dest_custom">フォルダを選択…</string>
+    <string name="dest_custom_desc">好きなフォルダに保存</string>
+    <string name="dest_cloud">クラウド (WebDAV)</string>
+    <string name="dest_cloud_desc">%1$s にアップロード</string>
+
+    <string name="progress_backup_title">%1$s をバックアップ中</string>
+    <string name="progress_restore_title">%1$s を復元中</string>
+    <string name="progress_hint">アプリを閉じても大丈夫です。進行状況は通知で確認できます。</string>
+    <string name="copying_file">バックアップファイルを読み込み中…</string>
+
+    <string name="log_prepare">準備中…</string>
+    <string name="log_apk">APKをコピー中…</string>
+    <string name="log_data">アプリデータを圧縮中…</string>
+    <string name="log_ext">外部データを圧縮中…</string>
+    <string name="log_pack">アーカイブを作成中…</string>
+    <string name="log_save_custom">選択したフォルダに保存中…</string>
+    <string name="log_upload">アップロード中… %1$s / %2$s</string>
+    <string name="log_download">ダウンロード中… %1$s / %2$s</string>
+    <string name="log_extract">アーカイブを展開中…</string>
+    <string name="log_install">APKをインストール中…</string>
+    <string name="log_restore_data">アプリデータを復元中…</string>
+    <string name="log_restore_ext">外部データを復元中…</string>
+    <string name="log_cleanup">後片付け中…</string>
+
+    <string name="res_backup_ok">バックアップ完了</string>
+    <string name="res_backup_fail">バックアップ失敗</string>
+    <string name="res_restore_ok">復元完了</string>
+    <string name="res_restore_fail">復元失敗</string>
+    <string name="res_saved_to">保存先: %1$s</string>
+    <string name="res_saved_cloud">アップロード先: %1$s</string>
+    <string name="res_no_apk">このアプリのAPKが見つかりません。</string>
+    <string name="res_not_installed">アプリがインストールされていません。先にAPKを含むバックアップを復元してください。</string>
+    <string name="res_bad_archive">有効なARKバックアップではありません。</string>
+    <string name="res_empty_data">アーカイブされたアプリデータがありません。</string>
+    <string name="res_install_fail">APKをインストールできませんでした。</string>
+    <string name="res_count_mismatch">復元された項目数がバックアップと一致しません。</string>
+    <string name="res_restored_pkg">復元しました: %1$s</string>
+
+    <string name="rs_title">復元元を選択</string>
+    <string name="rs_local">この端末</string>
+    <string name="rs_local_desc">/sdcard/ARK のバックアップ</string>
+    <string name="rs_cloud">クラウド (WebDAV)</string>
+    <string name="rs_cloud_desc">サーバー上のバックアップ</string>
+    <string name="rs_other">その他の場所…</string>
+    <string name="rs_other_desc">バックアップファイルを手動で選択</string>
+    <string name="rs_list_local">この端末のバックアップ</string>
+    <string name="rs_list_cloud">クラウドのバックアップ</string>
+    <string name="rs_empty">バックアップが見つかりません</string>
+    <string name="rs_loading">バックアップを探しています…</string>
+    <string name="rs_confirm_title">このバックアップを復元しますか？</string>
+    <string name="rs_confirm_warn">現在のアプリとデータが上書きされます。</string>
+    <string name="rs_delete_title">このバックアップを削除しますか？</string>
+    <string name="rs_cloud_need_connect">先に設定でクラウドを接続してください。</string>
+    <string name="rs_load_fail">バックアップを読み込めませんでした: %1$s</string>
+    <string name="entry_line1">v%1$s · %2$s</string>
+    <string name="entry_line2">%1$s · Android %2$s · %3$s</string>
+
+    <string name="meta_device">端末</string>
+    <string name="meta_android">Android</string>
+    <string name="meta_app_version">アプリのバージョン</string>
+    <string name="meta_date">バックアップ日時</string>
+    <string name="meta_contains">内容</string>
+    <string name="meta_size">サイズ</string>
+
+    <string name="set_title">設定</string>
+    <string name="set_cloud">クラウド (WebDAV)</string>
+    <string name="set_url">サーバーURL</string>
+    <string name="set_user">ユーザー名</string>
+    <string name="set_pass">パスワードまたはアプリパスワード</string>
+    <string name="set_connect">接続</string>
+    <string name="set_disconnect">接続解除</string>
+    <string name="set_connected">接続中: %1$s</string>
+    <string name="set_conn_ok">接続に成功しました</string>
+    <string name="set_conn_fail">接続失敗: %1$s</string>
+    <string name="set_cloud_note">バックアップはサーバーのARKフォルダに保存されます。</string>
+    <string name="set_dynamic">壁紙の色</string>
+    <string name="set_dynamic_desc">Android 12以降でMaterial Youの色を使用</string>
+    <string name="set_lang_note">言語はシステム設定に従います。</string>
+
+    <string name="notif_ch_progress">バックアップと復元の進行状況</string>
+    <string name="notif_ch_result">バックアップと復元の結果</string>
+</resources>
